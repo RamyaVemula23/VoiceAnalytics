@@ -3,12 +3,12 @@ const axios = require('axios');
 const config = {
     authentication: {
         options: {
-            userName: "saabadmin", // update me
-            password: "p@$$w0rd" // update me
+            userName:, // update me
+            password:  // update me
         },
         type: "default"
     },
-    server: "saab-server-resource.database.windows.net", // update me
+    server: , // update me
     options: {
         database: "Saab_DW_Resource", //update me
         encrypt: true,
