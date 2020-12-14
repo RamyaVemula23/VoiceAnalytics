@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+Array [
+  <div
+    class="topnav"
+  >
+    <div>
+      <nav
+        className="navbar navbar-expand-lg navbar-dark bg-black"
+      >
+        <a
+          href="https://www.dxc.technology/"
+        >
+          <img
+            alt="website-logo"
+            className="navbar-brand"
+            src="dxc_logo.png"
+            width="213px"
+          />
+        </a>
+        <div
+          className="collapse navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul
+            className="navbar-nav mr-auto"
+          >
+            <li
+              className="nav-item custom-font-nav"
+            >
+              <a
+                className="nav-link active"
+                href="/dashboard"
+                id="dashboard"
+              >
+                DASHBOARD
+              </a>
+            </li>
+            <li
+              className="nav-item custom-font-nav"
+            >
+              <a
+                className="nav-link"
+                href="/#"
+                id="call-analytics"
+              >
+                CALL ANALYTICS
+              </a>
+            </li>
+          </ul>
+        </div>
+        <button
+          className="MuiButtonBase-root MuiIconButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              style={
+                Object {
+                  "fill": "white",
+                  "height": "50px",
+                  "width": "50px",
+                }
+              }
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+        </button>
+      </nav>
+    </div>
+     
+  </div>,
+  <div
+    className="custom-container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="test col-12"
+      >
+        Date Picker
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <p>
+        Loading...
+      </p>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="test col-12"
+      >
+        Filter
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-lg-4 col-md-12 col-sm-12 col-12"
+      >
+        <p>
+          Loading...
+        </p>
+      </div>
+      <div
+        className="col-lg-4 col-md-12 col-sm-12 col-12"
+      >
+        <p>
+          Loading...
+        </p>
+      </div>
+      <div
+        className="col-lg-4 col-md-12 col-sm-12 col-12"
+      >
+        <p>
+          Loading...
+        </p>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-12"
+      >
+        <p>
+          Loading...
+        </p>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-12 card-heading"
+      >
+        KEYWORDS ON CALL
+      </div>
+      <div
+        className="col-12"
+      >
+        <p>
+          Loading...
+        </p>
+      </div>
+    </div>
+  </div>,
+  <footer
+    className="footer mt-auto py-3 bg-black text-light"
+  >
+    <div
+      className="custom-footer-container row"
+    >
+      <div
+        className="col-6"
+      >
+        Privacy policy
+      </div>
+      <div
+        className="col-6 text-right"
+      >
+        ©DXC Technology
+      </div>
+    </div>
+  </footer>,
+]
+`;

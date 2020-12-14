@@ -1,0 +1,2667 @@
+{
+    "definition": {
+        "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+        "actions": {
+            "Compose": {
+                "inputs": {
+                    "callId": 136043333,
+                    "segmentResults": [
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 26900000,
+                            "DurationInSeconds": 2.69,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.9118743,
+                                    "Display": "Hello mom, good morning. This is Alexa how may I help you.",
+                                    "ITN": "hello mom good morning this is alexa how may i help you",
+                                    "Lexical": "hello mom good morning this is alexa how may i help you",
+                                    "MaskedITN": "Hello mom good morning This is Alexa how may I help you",
+                                    "Sentiment": {
+                                        "Negative": 0,
+                                        "Neutral": 0,
+                                        "Positive": 0.999989
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.968578,
+                                            "Duration": 3900000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 24500000,
+                                            "OffsetInSeconds": 2.45,
+                                            "Word": "hello"
+                                        },
+                                        {
+                                            "Confidence": 0.861377,
+                                            "Duration": 1700000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 28400000,
+                                            "OffsetInSeconds": 2.84,
+                                            "Word": "mom"
+                                        },
+                                        {
+                                            "Confidence": 0.963629,
+                                            "Duration": 1700000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 30100000,
+                                            "OffsetInSeconds": 3.01,
+                                            "Word": "good"
+                                        },
+                                        {
+                                            "Confidence": 0.983894,
+                                            "Duration": 3200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 31800000,
+                                            "OffsetInSeconds": 3.18,
+                                            "Word": "morning"
+                                        },
+                                        {
+                                            "Confidence": 0.963815,
+                                            "Duration": 1800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 35000000,
+                                            "OffsetInSeconds": 3.5,
+                                            "Word": "this"
+                                        },
+                                        {
+                                            "Confidence": 0.973871,
+                                            "Duration": 1400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 36800000,
+                                            "OffsetInSeconds": 3.68,
+                                            "Word": "is"
+                                        },
+                                        {
+                                            "Confidence": 0.948416,
+                                            "Duration": 4400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 38200000,
+                                            "OffsetInSeconds": 3.82,
+                                            "Word": "alexa"
+                                        },
+                                        {
+                                            "Confidence": 0.983947,
+                                            "Duration": 1400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 42600000,
+                                            "OffsetInSeconds": 4.26,
+                                            "Word": "how"
+                                        },
+                                        {
+                                            "Confidence": 0.766405,
+                                            "Duration": 1300000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 44000000,
+                                            "OffsetInSeconds": 4.4,
+                                            "Word": "may"
+                                        },
+                                        {
+                                            "Confidence": 0.910509,
+                                            "Duration": 300000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 45300000,
+                                            "OffsetInSeconds": 4.53,
+                                            "Word": "i"
+                                        },
+                                        {
+                                            "Confidence": 0.993002,
+                                            "Duration": 3200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 45600000,
+                                            "OffsetInSeconds": 4.56,
+                                            "Word": "help"
+                                        },
+                                        {
+                                            "Confidence": 0.989564,
+                                            "Duration": 2600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 48800000,
+                                            "OffsetInSeconds": 4.88,
+                                            "Word": "you"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 24500000,
+                            "OffsetInSeconds": 2.45,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "2"
+                        },
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 104400000,
+                            "DurationInSeconds": 10.44,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.9060653,
+                                    "Display": "Hi my name is guy. Uh I would I wanted to take a term insurance policy. Could you tell me what the benefits of that are sure ma'am term insurance?",
+                                    "ITN": "hi my name is guy uh i would i wanted to take a term insurance policy could you tell me what the benefits of that are sure ma'am term insurance",
+                                    "Lexical": "hi my name is guy uh i would i wanted to take a term insurance policy could you tell me what the benefits of that are sure ma'am term insurance",
+                                    "MaskedITN": "Hi my name is guy Uh I would I wanted to take a term insurance policy Could you tell me what the benefits of that are sure ma'am term insurance",
+                                    "Sentiment": {
+                                        "Negative": 1,
+                                        "Neutral": 0,
+                                        "Positive": 0
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.936973,
+                                            "Duration": 2200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 59200000,
+                                            "OffsetInSeconds": 5.92,
+                                            "Word": "hi"
+                                        },
+                                        {
+                                            "Confidence": 0.985383,
+                                            "Duration": 2200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 61400000,
+                                            "OffsetInSeconds": 6.14,
+                                            "Word": "my"
+                                        },
+                                        {
+                                            "Confidence": 0.990306,
+                                            "Duration": 2500000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 63600000,
+                                            "OffsetInSeconds": 6.36,
+                                            "Word": "name"
+                                        },
+                                        {
+                                            "Confidence": 0.962702,
+                                            "Duration": 2100000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 66100000,
+                                            "OffsetInSeconds": 6.61,
+                                            "Word": "is"
+                                        },
+                                        {
+                                            "Confidence": 0.961216,
+                                            "Duration": 5800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 68200000,
+                                            "OffsetInSeconds": 6.82,
+                                            "Word": "guy"
+                                        },
+                                        {
+                                            "Confidence": 0.937659,
+                                            "Duration": 4300000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 74500000,
+                                            "OffsetInSeconds": 7.45,
+                                            "Word": "uh"
+                                        },
+                                        {
+                                            "Confidence": 0.934619,
+                                            "Duration": 1800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 78800000,
+                                            "OffsetInSeconds": 7.88,
+                                            "Word": "i"
+                                        },
+                                        {
+                                            "Confidence": 0.990011,
+                                            "Duration": 3600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 80600000,
+                                            "OffsetInSeconds": 8.06,
+                                            "Word": "would"
+                                        },
+                                        {
+                                            "Confidence": 0.964333,
+                                            "Duration": 2200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 84400000,
+                                            "OffsetInSeconds": 8.44,
+                                            "Word": "i"
+                                        },
+                                        {
+                                            "Confidence": 0.981146,
+                                            "Duration": 4000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 86600000,
+                                            "OffsetInSeconds": 8.66,
+                                            "Word": "wanted"
+                                        },
+                                        {
+                                            "Confidence": 0.960493,
+                                            "Duration": 1400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 90600000,
+                                            "OffsetInSeconds": 9.06,
+                                            "Word": "to"
+                                        },
+                                        {
+                                            "Confidence": 0.9786,
+                                            "Duration": 3600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 92000000,
+                                            "OffsetInSeconds": 9.2,
+                                            "Word": "take"
+                                        },
+                                        {
+                                            "Confidence": 0.98242,
+                                            "Duration": 1600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 95600000,
+                                            "OffsetInSeconds": 9.56,
+                                            "Word": "a"
+                                        },
+                                        {
+                                            "Confidence": 0.885364,
+                                            "Duration": 3200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 97200000,
+                                            "OffsetInSeconds": 9.72,
+                                            "Word": "term"
+                                        },
+                                        {
+                                            "Confidence": 0.978363,
+                                            "Duration": 5000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 100400000,
+                                            "OffsetInSeconds": 10.04,
+                                            "Word": "insurance"
+                                        },
+                                        {
+                                            "Confidence": 0.988497,
+                                            "Duration": 6600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 105400000,
+                                            "OffsetInSeconds": 10.54,
+                                            "Word": "policy"
+                                        },
+                                        {
+                                            "Confidence": 0.972349,
+                                            "Duration": 2200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 112000000,
+                                            "OffsetInSeconds": 11.2,
+                                            "Word": "could"
+                                        },
+                                        {
+                                            "Confidence": 0.951329,
+                                            "Duration": 1600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 114200000,
+                                            "OffsetInSeconds": 11.42,
+                                            "Word": "you"
+                                        },
+                                        {
+                                            "Confidence": 0.990722,
+                                            "Duration": 2600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 115800000,
+                                            "OffsetInSeconds": 11.58,
+                                            "Word": "tell"
+                                        },
+                                        {
+                                            "Confidence": 0.961449,
+                                            "Duration": 2000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 118400000,
+                                            "OffsetInSeconds": 11.84,
+                                            "Word": "me"
+                                        },
+                                        {
+                                            "Confidence": 0.967456,
+                                            "Duration": 2800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 120400000,
+                                            "OffsetInSeconds": 12.04,
+                                            "Word": "what"
+                                        },
+                                        {
+                                            "Confidence": 0.919213,
+                                            "Duration": 3200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 123200000,
+                                            "OffsetInSeconds": 12.32,
+                                            "Word": "the"
+                                        },
+                                        {
+                                            "Confidence": 0.989071,
+                                            "Duration": 6000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 126400000,
+                                            "OffsetInSeconds": 12.64,
+                                            "Word": "benefits"
+                                        },
+                                        {
+                                            "Confidence": 0.955702,
+                                            "Duration": 1600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 132400000,
+                                            "OffsetInSeconds": 13.24,
+                                            "Word": "of"
+                                        },
+                                        {
+                                            "Confidence": 0.947242,
+                                            "Duration": 2700000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 134000000,
+                                            "OffsetInSeconds": 13.4,
+                                            "Word": "that"
+                                        },
+                                        {
+                                            "Confidence": 0.966551,
+                                            "Duration": 2700000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 136700000,
+                                            "OffsetInSeconds": 13.67,
+                                            "Word": "are"
+                                        },
+                                        {
+                                            "Confidence": 0.936509,
+                                            "Duration": 5100000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 144500000,
+                                            "OffsetInSeconds": 14.45,
+                                            "Word": "sure"
+                                        },
+                                        {
+                                            "Confidence": 0.977062,
+                                            "Duration": 4500000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 149600000,
+                                            "OffsetInSeconds": 14.96,
+                                            "Word": "ma'am"
+                                        },
+                                        {
+                                            "Confidence": 0.770791,
+                                            "Duration": 2300000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 154300000,
+                                            "OffsetInSeconds": 15.43,
+                                            "Word": "term"
+                                        },
+                                        {
+                                            "Confidence": 0.958282,
+                                            "Duration": 7000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 156600000,
+                                            "OffsetInSeconds": 15.66,
+                                            "Word": "insurance"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 59200000,
+                            "OffsetInSeconds": 5.92,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "1"
+                        },
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 32200000,
+                            "DurationInSeconds": 3.22,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.9060653,
+                                    "Display": "Is there life insurance product offered by the insurance company?",
+                                    "ITN": "is there life insurance product offered by the insurance company",
+                                    "Lexical": "is there life insurance product offered by the insurance company",
+                                    "MaskedITN": "Is there life insurance product offered by the insurance company",
+                                    "Sentiment": {
+                                        "Negative": 0.141572,
+                                        "Neutral": 0.858407,
+                                        "Positive": 0
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.906429,
+                                            "Duration": 2200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 165000000,
+                                            "OffsetInSeconds": 16.5,
+                                            "Word": "is"
+                                        },
+                                        {
+                                            "Confidence": 0.904332,
+                                            "Duration": 1800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 167200000,
+                                            "OffsetInSeconds": 16.72,
+                                            "Word": "there"
+                                        },
+                                        {
+                                            "Confidence": 0.979928,
+                                            "Duration": 2800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 169000000,
+                                            "OffsetInSeconds": 16.9,
+                                            "Word": "life"
+                                        },
+                                        {
+                                            "Confidence": 0.989813,
+                                            "Duration": 4800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 171800000,
+                                            "OffsetInSeconds": 17.18,
+                                            "Word": "insurance"
+                                        },
+                                        {
+                                            "Confidence": 0.988985,
+                                            "Duration": 4000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 176600000,
+                                            "OffsetInSeconds": 17.66,
+                                            "Word": "product"
+                                        },
+                                        {
+                                            "Confidence": 0.783746,
+                                            "Duration": 3600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 180800000,
+                                            "OffsetInSeconds": 18.08,
+                                            "Word": "offered"
+                                        },
+                                        {
+                                            "Confidence": 0.972148,
+                                            "Duration": 1200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 184400000,
+                                            "OffsetInSeconds": 18.44,
+                                            "Word": "by"
+                                        },
+                                        {
+                                            "Confidence": 0.863744,
+                                            "Duration": 1000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 185600000,
+                                            "OffsetInSeconds": 18.56,
+                                            "Word": "the"
+                                        },
+                                        {
+                                            "Confidence": 0.980417,
+                                            "Duration": 4800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 186600000,
+                                            "OffsetInSeconds": 18.66,
+                                            "Word": "insurance"
+                                        },
+                                        {
+                                            "Confidence": 0.99553,
+                                            "Duration": 5800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 191400000,
+                                            "OffsetInSeconds": 19.14,
+                                            "Word": "company"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 165000000,
+                            "OffsetInSeconds": 16.5,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "2"
+                        },
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 6600000,
+                            "DurationInSeconds": 0.66,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.9060653,
+                                    "Display": "Which offers",
+                                    "ITN": "which offers",
+                                    "Lexical": "which offers",
+                                    "MaskedITN": "Which offers",
+                                    "Sentiment": {
+                                        "Negative": 0,
+                                        "Neutral": 0.926446,
+                                        "Positive": 0
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.916355,
+                                            "Duration": 3200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 197800000,
+                                            "OffsetInSeconds": 19.78,
+                                            "Word": "which"
+                                        },
+                                        {
+                                            "Confidence": 0.95773,
+                                            "Duration": 3400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 201000000,
+                                            "OffsetInSeconds": 20.1,
+                                            "Word": "offers"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 197800000,
+                            "OffsetInSeconds": 19.78,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "1"
+                        },
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 52500000,
+                            "DurationInSeconds": 5.25,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.9060653,
+                                    "Display": "Financial coverage to the term insurance policy Holder for your specific time period.",
+                                    "ITN": "financial coverage to the term insurance policy holder for your specific time period",
+                                    "Lexical": "financial coverage to the term insurance policy holder for your specific time period",
+                                    "MaskedITN": "Financial coverage to the term insurance policy Holder for your specific time period",
+                                    "Sentiment": {
+                                        "Negative": 0.24281,
+                                        "Neutral": 0.757163,
+                                        "Positive": 0
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.98321,
+                                            "Duration": 6600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 204400000,
+                                            "OffsetInSeconds": 20.44,
+                                            "Word": "financial"
+                                        },
+                                        {
+                                            "Confidence": 0.963809,
+                                            "Duration": 4400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 211000000,
+                                            "OffsetInSeconds": 21.1,
+                                            "Word": "coverage"
+                                        },
+                                        {
+                                            "Confidence": 0.928992,
+                                            "Duration": 1800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 215400000,
+                                            "OffsetInSeconds": 21.54,
+                                            "Word": "to"
+                                        },
+                                        {
+                                            "Confidence": 0.914923,
+                                            "Duration": 2200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 217200000,
+                                            "OffsetInSeconds": 21.72,
+                                            "Word": "the"
+                                        },
+                                        {
+                                            "Confidence": 0.914447,
+                                            "Duration": 3800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 219400000,
+                                            "OffsetInSeconds": 21.94,
+                                            "Word": "term"
+                                        },
+                                        {
+                                            "Confidence": 0.992056,
+                                            "Duration": 7200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 223200000,
+                                            "OffsetInSeconds": 22.32,
+                                            "Word": "insurance"
+                                        },
+                                        {
+                                            "Confidence": 0.981547,
+                                            "Duration": 4900000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 231300000,
+                                            "OffsetInSeconds": 23.13,
+                                            "Word": "policy"
+                                        },
+                                        {
+                                            "Confidence": 0.986791,
+                                            "Duration": 5200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 236200000,
+                                            "OffsetInSeconds": 23.62,
+                                            "Word": "holder"
+                                        },
+                                        {
+                                            "Confidence": 0.977705,
+                                            "Duration": 1500000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 241400000,
+                                            "OffsetInSeconds": 24.14,
+                                            "Word": "for"
+                                        },
+                                        {
+                                            "Confidence": 0.687516,
+                                            "Duration": 1100000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 242900000,
+                                            "OffsetInSeconds": 24.29,
+                                            "Word": "your"
+                                        },
+                                        {
+                                            "Confidence": 0.954581,
+                                            "Duration": 5200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 244000000,
+                                            "OffsetInSeconds": 24.4,
+                                            "Word": "specific"
+                                        },
+                                        {
+                                            "Confidence": 0.964916,
+                                            "Duration": 2800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 249200000,
+                                            "OffsetInSeconds": 24.92,
+                                            "Word": "time"
+                                        },
+                                        {
+                                            "Confidence": 0.966154,
+                                            "Duration": 4900000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 252000000,
+                                            "OffsetInSeconds": 25.2,
+                                            "Word": "period"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 204400000,
+                            "OffsetInSeconds": 20.44,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "2"
+                        },
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 15800000,
+                            "DurationInSeconds": 1.58,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.9060653,
+                                    "Display": "In case of death of the insured.",
+                                    "ITN": "in case of death of the insured",
+                                    "Lexical": "in case of death of the insured",
+                                    "MaskedITN": "In case of death of the insured",
+                                    "Sentiment": {
+                                        "Negative": 0.244786,
+                                        "Neutral": 0.7552,
+                                        "Positive": 0
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.894473,
+                                            "Duration": 2200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 262200000,
+                                            "OffsetInSeconds": 26.22,
+                                            "Word": "in"
+                                        },
+                                        {
+                                            "Confidence": 0.973966,
+                                            "Duration": 2600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 264400000,
+                                            "OffsetInSeconds": 26.44,
+                                            "Word": "case"
+                                        },
+                                        {
+                                            "Confidence": 0.928622,
+                                            "Duration": 1200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 267000000,
+                                            "OffsetInSeconds": 26.7,
+                                            "Word": "of"
+                                        },
+                                        {
+                                            "Confidence": 0.965076,
+                                            "Duration": 2600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 268200000,
+                                            "OffsetInSeconds": 26.82,
+                                            "Word": "death"
+                                        },
+                                        {
+                                            "Confidence": 0.947473,
+                                            "Duration": 1200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 270800000,
+                                            "OffsetInSeconds": 27.08,
+                                            "Word": "of"
+                                        },
+                                        {
+                                            "Confidence": 0.960634,
+                                            "Duration": 1200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 272000000,
+                                            "OffsetInSeconds": 27.2,
+                                            "Word": "the"
+                                        },
+                                        {
+                                            "Confidence": 0.942224,
+                                            "Duration": 4800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 273200000,
+                                            "OffsetInSeconds": 27.32,
+                                            "Word": "insured"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 262200000,
+                            "OffsetInSeconds": 26.22,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "1"
+                        },
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 48800000,
+                            "DurationInSeconds": 4.88,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.9060653,
+                                    "Display": "Individual during the policy term that death benefit is paid by the company to the bank be sharing.",
+                                    "ITN": "individual during the policy term that death benefit is paid by the company to the bank be sharing",
+                                    "Lexical": "individual during the policy term that death benefit is paid by the company to the bank be sharing",
+                                    "MaskedITN": "Individual during the policy term that death benefit is paid by the company to the bank be sharing",
+                                    "Sentiment": {
+                                        "Negative": 0.157557,
+                                        "Neutral": 0.842411,
+                                        "Positive": 0
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.972681,
+                                            "Duration": 5000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 278000000,
+                                            "OffsetInSeconds": 27.8,
+                                            "Word": "individual"
+                                        },
+                                        {
+                                            "Confidence": 0.973187,
+                                            "Duration": 2900000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 283000000,
+                                            "OffsetInSeconds": 28.3,
+                                            "Word": "during"
+                                        },
+                                        {
+                                            "Confidence": 0.932131,
+                                            "Duration": 1100000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 285900000,
+                                            "OffsetInSeconds": 28.59,
+                                            "Word": "the"
+                                        },
+                                        {
+                                            "Confidence": 0.977905,
+                                            "Duration": 5000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 287000000,
+                                            "OffsetInSeconds": 28.7,
+                                            "Word": "policy"
+                                        },
+                                        {
+                                            "Confidence": 0.979875,
+                                            "Duration": 4300000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 292000000,
+                                            "OffsetInSeconds": 29.2,
+                                            "Word": "term"
+                                        },
+                                        {
+                                            "Confidence": 0.859779,
+                                            "Duration": 1900000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 296500000,
+                                            "OffsetInSeconds": 29.65,
+                                            "Word": "that"
+                                        },
+                                        {
+                                            "Confidence": 0.715186,
+                                            "Duration": 1800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 298400000,
+                                            "OffsetInSeconds": 29.84,
+                                            "Word": "death"
+                                        },
+                                        {
+                                            "Confidence": 0.962846,
+                                            "Duration": 4000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 300200000,
+                                            "OffsetInSeconds": 30.02,
+                                            "Word": "benefit"
+                                        },
+                                        {
+                                            "Confidence": 0.917428,
+                                            "Duration": 1200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 304200000,
+                                            "OffsetInSeconds": 30.42,
+                                            "Word": "is"
+                                        },
+                                        {
+                                            "Confidence": 0.904519,
+                                            "Duration": 2800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 305400000,
+                                            "OffsetInSeconds": 30.54,
+                                            "Word": "paid"
+                                        },
+                                        {
+                                            "Confidence": 0.967585,
+                                            "Duration": 1400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 308200000,
+                                            "OffsetInSeconds": 30.82,
+                                            "Word": "by"
+                                        },
+                                        {
+                                            "Confidence": 0.971883,
+                                            "Duration": 1700000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 309600000,
+                                            "OffsetInSeconds": 30.96,
+                                            "Word": "the"
+                                        },
+                                        {
+                                            "Confidence": 0.987948,
+                                            "Duration": 4100000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 311300000,
+                                            "OffsetInSeconds": 31.13,
+                                            "Word": "company"
+                                        },
+                                        {
+                                            "Confidence": 0.881447,
+                                            "Duration": 1100000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 315400000,
+                                            "OffsetInSeconds": 31.54,
+                                            "Word": "to"
+                                        },
+                                        {
+                                            "Confidence": 0.941615,
+                                            "Duration": 1300000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 316500000,
+                                            "OffsetInSeconds": 31.65,
+                                            "Word": "the"
+                                        },
+                                        {
+                                            "Confidence": 0.965071,
+                                            "Duration": 2500000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 317800000,
+                                            "OffsetInSeconds": 31.78,
+                                            "Word": "bank"
+                                        },
+                                        {
+                                            "Confidence": 0.63351,
+                                            "Duration": 1300000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 320300000,
+                                            "OffsetInSeconds": 32.03,
+                                            "Word": "be"
+                                        },
+                                        {
+                                            "Confidence": 0.980749,
+                                            "Duration": 5200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 321600000,
+                                            "OffsetInSeconds": 32.16,
+                                            "Word": "sharing"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 278000000,
+                            "OffsetInSeconds": 27.8,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "2"
+                        },
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 58400000,
+                            "DurationInSeconds": 5.84,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.905536234,
+                                    "Display": "Uh all right uh and how much is the premium and how much of the benefit do I actually get.",
+                                    "ITN": "uh all right uh and how much is the premium and how much of the benefit do i actually get",
+                                    "Lexical": "uh all right uh and how much is the premium and how much of the benefit do i actually get",
+                                    "MaskedITN": "Uh all right uh and how much is the premium and how much of the benefit do I actually get",
+                                    "Sentiment": {
+                                        "Negative": 0,
+                                        "Neutral": 0,
+                                        "Positive": 0.965195
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.943588,
+                                            "Duration": 4700000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 338900000,
+                                            "OffsetInSeconds": 33.89,
+                                            "Word": "uh"
+                                        },
+                                        {
+                                            "Confidence": 0.945392,
+                                            "Duration": 2500000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 343800000,
+                                            "OffsetInSeconds": 34.38,
+                                            "Word": "all"
+                                        },
+                                        {
+                                            "Confidence": 0.989101,
+                                            "Duration": 3600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 346300000,
+                                            "OffsetInSeconds": 34.63,
+                                            "Word": "right"
+                                        },
+                                        {
+                                            "Confidence": 0.932576,
+                                            "Duration": 3100000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 350100000,
+                                            "OffsetInSeconds": 35.01,
+                                            "Word": "uh"
+                                        },
+                                        {
+                                            "Confidence": 0.965135,
+                                            "Duration": 6300000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 353200000,
+                                            "OffsetInSeconds": 35.32,
+                                            "Word": "and"
+                                        },
+                                        {
+                                            "Confidence": 0.984375,
+                                            "Duration": 1700000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 359500000,
+                                            "OffsetInSeconds": 35.95,
+                                            "Word": "how"
+                                        },
+                                        {
+                                            "Confidence": 0.981929,
+                                            "Duration": 2100000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 361200000,
+                                            "OffsetInSeconds": 36.12,
+                                            "Word": "much"
+                                        },
+                                        {
+                                            "Confidence": 0.961554,
+                                            "Duration": 1200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 363300000,
+                                            "OffsetInSeconds": 36.33,
+                                            "Word": "is"
+                                        },
+                                        {
+                                            "Confidence": 0.837513,
+                                            "Duration": 1000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 364500000,
+                                            "OffsetInSeconds": 36.45,
+                                            "Word": "the"
+                                        },
+                                        {
+                                            "Confidence": 0.978126,
+                                            "Duration": 6600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 365500000,
+                                            "OffsetInSeconds": 36.55,
+                                            "Word": "premium"
+                                        },
+                                        {
+                                            "Confidence": 0.946884,
+                                            "Duration": 1800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 372100000,
+                                            "OffsetInSeconds": 37.21,
+                                            "Word": "and"
+                                        },
+                                        {
+                                            "Confidence": 0.986806,
+                                            "Duration": 1600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 373900000,
+                                            "OffsetInSeconds": 37.39,
+                                            "Word": "how"
+                                        },
+                                        {
+                                            "Confidence": 0.97792,
+                                            "Duration": 2200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 375500000,
+                                            "OffsetInSeconds": 37.55,
+                                            "Word": "much"
+                                        },
+                                        {
+                                            "Confidence": 0.984851,
+                                            "Duration": 1400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 377700000,
+                                            "OffsetInSeconds": 37.77,
+                                            "Word": "of"
+                                        },
+                                        {
+                                            "Confidence": 0.948349,
+                                            "Duration": 2800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 379100000,
+                                            "OffsetInSeconds": 37.91,
+                                            "Word": "the"
+                                        },
+                                        {
+                                            "Confidence": 0.974989,
+                                            "Duration": 4200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 381900000,
+                                            "OffsetInSeconds": 38.19,
+                                            "Word": "benefit"
+                                        },
+                                        {
+                                            "Confidence": 0.95714,
+                                            "Duration": 1600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 386100000,
+                                            "OffsetInSeconds": 38.61,
+                                            "Word": "do"
+                                        },
+                                        {
+                                            "Confidence": 0.9296,
+                                            "Duration": 600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 387700000,
+                                            "OffsetInSeconds": 38.77,
+                                            "Word": "i"
+                                        },
+                                        {
+                                            "Confidence": 0.984123,
+                                            "Duration": 5000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 388300000,
+                                            "OffsetInSeconds": 38.83,
+                                            "Word": "actually"
+                                        },
+                                        {
+                                            "Confidence": 0.98807,
+                                            "Duration": 4000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 393300000,
+                                            "OffsetInSeconds": 39.33,
+                                            "Word": "get"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 338900000,
+                            "OffsetInSeconds": 33.89,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "1"
+                        },
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 23600000,
+                            "DurationInSeconds": 2.36,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.8830837,
+                                    "Display": "That benefit will be depends on the.",
+                                    "ITN": "that benefit will be depends on the",
+                                    "Lexical": "that benefit will be depends on the",
+                                    "MaskedITN": "That benefit will be depends on the",
+                                    "Sentiment": {
+                                        "Negative": 0.136409,
+                                        "Neutral": 0.863563,
+                                        "Positive": 0
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.867056,
+                                            "Duration": 2900000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 403700000,
+                                            "OffsetInSeconds": 40.37,
+                                            "Word": "that"
+                                        },
+                                        {
+                                            "Confidence": 0.958941,
+                                            "Duration": 5200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 406600000,
+                                            "OffsetInSeconds": 40.66,
+                                            "Word": "benefit"
+                                        },
+                                        {
+                                            "Confidence": 0.974365,
+                                            "Duration": 1900000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 411800000,
+                                            "OffsetInSeconds": 41.18,
+                                            "Word": "will"
+                                        },
+                                        {
+                                            "Confidence": 0.929865,
+                                            "Duration": 1300000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 413700000,
+                                            "OffsetInSeconds": 41.37,
+                                            "Word": "be"
+                                        },
+                                        {
+                                            "Confidence": 0.940308,
+                                            "Duration": 4400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 415000000,
+                                            "OffsetInSeconds": 41.5,
+                                            "Word": "depends"
+                                        },
+                                        {
+                                            "Confidence": 0.966438,
+                                            "Duration": 1800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 419400000,
+                                            "OffsetInSeconds": 41.94,
+                                            "Word": "on"
+                                        },
+                                        {
+                                            "Confidence": 0.959604,
+                                            "Duration": 6100000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 421200000,
+                                            "OffsetInSeconds": 42.12,
+                                            "Word": "the"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 403700000,
+                            "OffsetInSeconds": 40.37,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "1"
+                        },
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 26700000,
+                            "DurationInSeconds": 2.67,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.8830837,
+                                    "Display": "Type of the policy you want to take it will.",
+                                    "ITN": "type of the policy you want to take it will",
+                                    "Lexical": "type of the policy you want to take it will",
+                                    "MaskedITN": "Type of the policy you want to take it will",
+                                    "Sentiment": {
+                                        "Negative": 0.11833,
+                                        "Neutral": 0.88164,
+                                        "Positive": 0
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.982535,
+                                            "Duration": 2700000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 427500000,
+                                            "OffsetInSeconds": 42.75,
+                                            "Word": "type"
+                                        },
+                                        {
+                                            "Confidence": 0.963202,
+                                            "Duration": 1400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 430200000,
+                                            "OffsetInSeconds": 43.02,
+                                            "Word": "of"
+                                        },
+                                        {
+                                            "Confidence": 0.89097,
+                                            "Duration": 1400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 431600000,
+                                            "OffsetInSeconds": 43.16,
+                                            "Word": "the"
+                                        },
+                                        {
+                                            "Confidence": 0.983876,
+                                            "Duration": 5800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 433000000,
+                                            "OffsetInSeconds": 43.3,
+                                            "Word": "policy"
+                                        },
+                                        {
+                                            "Confidence": 0.957833,
+                                            "Duration": 1200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 438800000,
+                                            "OffsetInSeconds": 43.88,
+                                            "Word": "you"
+                                        },
+                                        {
+                                            "Confidence": 0.984841,
+                                            "Duration": 3200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 440000000,
+                                            "OffsetInSeconds": 44,
+                                            "Word": "want"
+                                        },
+                                        {
+                                            "Confidence": 0.90419,
+                                            "Duration": 1400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 443200000,
+                                            "OffsetInSeconds": 44.32,
+                                            "Word": "to"
+                                        },
+                                        {
+                                            "Confidence": 0.992911,
+                                            "Duration": 4900000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 444600000,
+                                            "OffsetInSeconds": 44.46,
+                                            "Word": "take"
+                                        },
+                                        {
+                                            "Confidence": 0.964942,
+                                            "Duration": 2300000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 449700000,
+                                            "OffsetInSeconds": 44.97,
+                                            "Word": "it"
+                                        },
+                                        {
+                                            "Confidence": 0.969533,
+                                            "Duration": 2200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 452000000,
+                                            "OffsetInSeconds": 45.2,
+                                            "Word": "will"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 427500000,
+                            "OffsetInSeconds": 42.75,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "2"
+                        },
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 21000000,
+                            "DurationInSeconds": 2.1,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.8830837,
+                                    "Display": "Be uh usually it will be.",
+                                    "ITN": "be uh usually it will be",
+                                    "Lexical": "be uh usually it will be",
+                                    "MaskedITN": "Be uh usually it will be",
+                                    "Sentiment": {
+                                        "Negative": 0.146859,
+                                        "Neutral": 0.853114,
+                                        "Positive": 0
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.987478,
+                                            "Duration": 5200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 454200000,
+                                            "OffsetInSeconds": 45.42,
+                                            "Word": "be"
+                                        },
+                                        {
+                                            "Confidence": 0.980092,
+                                            "Duration": 2300000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 459400000,
+                                            "OffsetInSeconds": 45.94,
+                                            "Word": "uh"
+                                        },
+                                        {
+                                            "Confidence": 0.96586,
+                                            "Duration": 5500000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 461900000,
+                                            "OffsetInSeconds": 46.19,
+                                            "Word": "usually"
+                                        },
+                                        {
+                                            "Confidence": 0.930212,
+                                            "Duration": 1600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 467400000,
+                                            "OffsetInSeconds": 46.74,
+                                            "Word": "it"
+                                        },
+                                        {
+                                            "Confidence": 0.987003,
+                                            "Duration": 1800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 469000000,
+                                            "OffsetInSeconds": 46.9,
+                                            "Word": "will"
+                                        },
+                                        {
+                                            "Confidence": 0.979935,
+                                            "Duration": 4400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 470800000,
+                                            "OffsetInSeconds": 47.08,
+                                            "Word": "be"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 454200000,
+                            "OffsetInSeconds": 45.42,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "1"
+                        },
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 78200000,
+                            "DurationInSeconds": 7.82,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.8830837,
+                                    "Display": "Monthly visor quarterly razor uh a yearly wise it will be 10,000 and you will get a benefit up through 1 cross.",
+                                    "ITN": "monthly visor quarterly razor uh a yearly wise it will be 10000 and you will get a benefit up through 1 cross",
+                                    "Lexical": "monthly visor quarterly razor uh a yearly wise it will be ten thousand and you will get a benefit up through one cross",
+                                    "MaskedITN": "Monthly visor quarterly razor uh a yearly wise it will be 10000 and you will get a benefit up through 1 cross",
+                                    "Sentiment": {
+                                        "Negative": 0.190743,
+                                        "Neutral": 0.809212,
+                                        "Positive": 0
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.896023,
+                                            "Duration": 5400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 475400000,
+                                            "OffsetInSeconds": 47.54,
+                                            "Word": "monthly"
+                                        },
+                                        {
+                                            "Confidence": 0.872403,
+                                            "Duration": 3500000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 480800000,
+                                            "OffsetInSeconds": 48.08,
+                                            "Word": "visor"
+                                        },
+                                        {
+                                            "Confidence": 0.949303,
+                                            "Duration": 5700000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 484300000,
+                                            "OffsetInSeconds": 48.43,
+                                            "Word": "quarterly"
+                                        },
+                                        {
+                                            "Confidence": 0.81783,
+                                            "Duration": 5400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 490000000,
+                                            "OffsetInSeconds": 49,
+                                            "Word": "razor"
+                                        },
+                                        {
+                                            "Confidence": 0.962389,
+                                            "Duration": 3200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 495400000,
+                                            "OffsetInSeconds": 49.54,
+                                            "Word": "uh"
+                                        },
+                                        {
+                                            "Confidence": 0.951468,
+                                            "Duration": 5300000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 498800000,
+                                            "OffsetInSeconds": 49.88,
+                                            "Word": "a"
+                                        },
+                                        {
+                                            "Confidence": 0.947125,
+                                            "Duration": 4700000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 504300000,
+                                            "OffsetInSeconds": 50.43,
+                                            "Word": "yearly"
+                                        },
+                                        {
+                                            "Confidence": 0.984148,
+                                            "Duration": 4200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 509000000,
+                                            "OffsetInSeconds": 50.9,
+                                            "Word": "wise"
+                                        },
+                                        {
+                                            "Confidence": 0.899505,
+                                            "Duration": 2200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 513400000,
+                                            "OffsetInSeconds": 51.34,
+                                            "Word": "it"
+                                        },
+                                        {
+                                            "Confidence": 0.989833,
+                                            "Duration": 2000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 515600000,
+                                            "OffsetInSeconds": 51.56,
+                                            "Word": "will"
+                                        },
+                                        {
+                                            "Confidence": 0.941356,
+                                            "Duration": 1800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 517600000,
+                                            "OffsetInSeconds": 51.76,
+                                            "Word": "be"
+                                        },
+                                        {
+                                            "Confidence": 0.955276,
+                                            "Duration": 3400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 519400000,
+                                            "OffsetInSeconds": 51.94,
+                                            "Word": "ten"
+                                        },
+                                        {
+                                            "Confidence": 0.993457,
+                                            "Duration": 7600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 522800000,
+                                            "OffsetInSeconds": 52.28,
+                                            "Word": "thousand"
+                                        },
+                                        {
+                                            "Confidence": 0.901225,
+                                            "Duration": 2200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 531600000,
+                                            "OffsetInSeconds": 53.16,
+                                            "Word": "and"
+                                        },
+                                        {
+                                            "Confidence": 0.990158,
+                                            "Duration": 800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 533800000,
+                                            "OffsetInSeconds": 53.38,
+                                            "Word": "you"
+                                        },
+                                        {
+                                            "Confidence": 0.97115,
+                                            "Duration": 1400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 534600000,
+                                            "OffsetInSeconds": 53.46,
+                                            "Word": "will"
+                                        },
+                                        {
+                                            "Confidence": 0.973533,
+                                            "Duration": 2000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 536000000,
+                                            "OffsetInSeconds": 53.6,
+                                            "Word": "get"
+                                        },
+                                        {
+                                            "Confidence": 0.947452,
+                                            "Duration": 800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 538000000,
+                                            "OffsetInSeconds": 53.8,
+                                            "Word": "a"
+                                        },
+                                        {
+                                            "Confidence": 0.964924,
+                                            "Duration": 4600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 538800000,
+                                            "OffsetInSeconds": 53.88,
+                                            "Word": "benefit"
+                                        },
+                                        {
+                                            "Confidence": 0.945624,
+                                            "Duration": 1600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 543400000,
+                                            "OffsetInSeconds": 54.34,
+                                            "Word": "up"
+                                        },
+                                        {
+                                            "Confidence": 0.940133,
+                                            "Duration": 2000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 545000000,
+                                            "OffsetInSeconds": 54.5,
+                                            "Word": "through"
+                                        },
+                                        {
+                                            "Confidence": 0.938122,
+                                            "Duration": 2800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 547000000,
+                                            "OffsetInSeconds": 54.7,
+                                            "Word": "one"
+                                        },
+                                        {
+                                            "Confidence": 0.978933,
+                                            "Duration": 3800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 549800000,
+                                            "OffsetInSeconds": 54.98,
+                                            "Word": "cross"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 475400000,
+                            "OffsetInSeconds": 47.54,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "2"
+                        },
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 99300000,
+                            "DurationInSeconds": 9.93,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.9170017,
+                                    "Display": "OK and one more thing. Uh you told me that the death benefit. Whatever you said is exactly paid by whom that will be given from the insurance company.",
+                                    "ITN": "OK and one more thing uh you told me that the death benefit whatever you said is exactly paid by whom that will be given from the insurance company",
+                                    "Lexical": "OK and one more thing uh you told me that the death benefit whatever you said is exactly paid by whom that will be given from the insurance company",
+                                    "MaskedITN": "OK and one more thing Uh you told me that the death benefit Whatever you said is exactly paid by whom that will be given from the insurance company",
+                                    "Sentiment": {
+                                        "Negative": 0.999672,
+                                        "Neutral": 0,
+                                        "Positive": 0
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.987337,
+                                            "Duration": 5000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 563100000,
+                                            "OffsetInSeconds": 56.31,
+                                            "Word": "OK"
+                                        },
+                                        {
+                                            "Confidence": 0.899083,
+                                            "Duration": 4900000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 568400000,
+                                            "OffsetInSeconds": 56.84,
+                                            "Word": "and"
+                                        },
+                                        {
+                                            "Confidence": 0.939446,
+                                            "Duration": 1800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 573300000,
+                                            "OffsetInSeconds": 57.33,
+                                            "Word": "one"
+                                        },
+                                        {
+                                            "Confidence": 0.990366,
+                                            "Duration": 1600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 575100000,
+                                            "OffsetInSeconds": 57.51,
+                                            "Word": "more"
+                                        },
+                                        {
+                                            "Confidence": 0.976872,
+                                            "Duration": 4200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 576700000,
+                                            "OffsetInSeconds": 57.67,
+                                            "Word": "thing"
+                                        },
+                                        {
+                                            "Confidence": 0.910262,
+                                            "Duration": 2400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 580900000,
+                                            "OffsetInSeconds": 58.09,
+                                            "Word": "uh"
+                                        },
+                                        {
+                                            "Confidence": 0.952349,
+                                            "Duration": 2800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 583300000,
+                                            "OffsetInSeconds": 58.33,
+                                            "Word": "you"
+                                        },
+                                        {
+                                            "Confidence": 0.973764,
+                                            "Duration": 2400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 586100000,
+                                            "OffsetInSeconds": 58.61,
+                                            "Word": "told"
+                                        },
+                                        {
+                                            "Confidence": 0.957444,
+                                            "Duration": 1400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 588500000,
+                                            "OffsetInSeconds": 58.85,
+                                            "Word": "me"
+                                        },
+                                        {
+                                            "Confidence": 0.942006,
+                                            "Duration": 1800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 589900000,
+                                            "OffsetInSeconds": 58.99,
+                                            "Word": "that"
+                                        },
+                                        {
+                                            "Confidence": 0.858378,
+                                            "Duration": 1400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 591700000,
+                                            "OffsetInSeconds": 59.17,
+                                            "Word": "the"
+                                        },
+                                        {
+                                            "Confidence": 0.965733,
+                                            "Duration": 3600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 593100000,
+                                            "OffsetInSeconds": 59.31,
+                                            "Word": "death"
+                                        },
+                                        {
+                                            "Confidence": 0.984941,
+                                            "Duration": 6000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 596700000,
+                                            "OffsetInSeconds": 59.67,
+                                            "Word": "benefit"
+                                        },
+                                        {
+                                            "Confidence": 0.969613,
+                                            "Duration": 4000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 602700000,
+                                            "OffsetInSeconds": 60.27,
+                                            "Word": "whatever"
+                                        },
+                                        {
+                                            "Confidence": 0.975809,
+                                            "Duration": 1400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 606700000,
+                                            "OffsetInSeconds": 60.67,
+                                            "Word": "you"
+                                        },
+                                        {
+                                            "Confidence": 0.955495,
+                                            "Duration": 2800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 608100000,
+                                            "OffsetInSeconds": 60.81,
+                                            "Word": "said"
+                                        },
+                                        {
+                                            "Confidence": 0.964136,
+                                            "Duration": 1800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 610900000,
+                                            "OffsetInSeconds": 61.09,
+                                            "Word": "is"
+                                        },
+                                        {
+                                            "Confidence": 0.976028,
+                                            "Duration": 5000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 612700000,
+                                            "OffsetInSeconds": 61.27,
+                                            "Word": "exactly"
+                                        },
+                                        {
+                                            "Confidence": 0.9256,
+                                            "Duration": 2400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 617700000,
+                                            "OffsetInSeconds": 61.77,
+                                            "Word": "paid"
+                                        },
+                                        {
+                                            "Confidence": 0.919354,
+                                            "Duration": 1200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 620100000,
+                                            "OffsetInSeconds": 62.01,
+                                            "Word": "by"
+                                        },
+                                        {
+                                            "Confidence": 0.935982,
+                                            "Duration": 6200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 621300000,
+                                            "OffsetInSeconds": 62.13,
+                                            "Word": "whom"
+                                        },
+                                        {
+                                            "Confidence": 0.895241,
+                                            "Duration": 2900000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 630800000,
+                                            "OffsetInSeconds": 63.08,
+                                            "Word": "that"
+                                        },
+                                        {
+                                            "Confidence": 0.977424,
+                                            "Duration": 1800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 633700000,
+                                            "OffsetInSeconds": 63.37,
+                                            "Word": "will"
+                                        },
+                                        {
+                                            "Confidence": 0.988863,
+                                            "Duration": 3400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 635500000,
+                                            "OffsetInSeconds": 63.55,
+                                            "Word": "be"
+                                        },
+                                        {
+                                            "Confidence": 0.984231,
+                                            "Duration": 5600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 638900000,
+                                            "OffsetInSeconds": 63.89,
+                                            "Word": "given"
+                                        },
+                                        {
+                                            "Confidence": 0.983942,
+                                            "Duration": 3600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 644500000,
+                                            "OffsetInSeconds": 64.45,
+                                            "Word": "from"
+                                        },
+                                        {
+                                            "Confidence": 0.968498,
+                                            "Duration": 2700000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 648100000,
+                                            "OffsetInSeconds": 64.81,
+                                            "Word": "the"
+                                        },
+                                        {
+                                            "Confidence": 0.984338,
+                                            "Duration": 5900000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 650800000,
+                                            "OffsetInSeconds": 65.08,
+                                            "Word": "insurance"
+                                        },
+                                        {
+                                            "Confidence": 0.994643,
+                                            "Duration": 5700000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 656700000,
+                                            "OffsetInSeconds": 65.67,
+                                            "Word": "company"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 563100000,
+                            "OffsetInSeconds": 56.31,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "1"
+                        },
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 41600000,
+                            "DurationInSeconds": 4.16,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.9170017,
+                                    "Display": "Whom you through the goal by the policy company insurance company.",
+                                    "ITN": "whom you through the goal by the policy company insurance company",
+                                    "Lexical": "whom you through the goal by the policy company insurance company",
+                                    "MaskedITN": "Whom you through the goal by the policy company insurance company",
+                                    "Sentiment": {
+                                        "Negative": 0.20663,
+                                        "Neutral": 0.793352,
+                                        "Positive": 0
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.975773,
+                                            "Duration": 4700000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 662400000,
+                                            "OffsetInSeconds": 66.24,
+                                            "Word": "whom"
+                                        },
+                                        {
+                                            "Confidence": 0.943631,
+                                            "Duration": 2000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 667100000,
+                                            "OffsetInSeconds": 66.71,
+                                            "Word": "you"
+                                        },
+                                        {
+                                            "Confidence": 0.969225,
+                                            "Duration": 2600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 669100000,
+                                            "OffsetInSeconds": 66.91,
+                                            "Word": "through"
+                                        },
+                                        {
+                                            "Confidence": 0.989528,
+                                            "Duration": 3300000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 671700000,
+                                            "OffsetInSeconds": 67.17,
+                                            "Word": "the"
+                                        },
+                                        {
+                                            "Confidence": 0.962988,
+                                            "Duration": 3500000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 675200000,
+                                            "OffsetInSeconds": 67.52,
+                                            "Word": "goal"
+                                        },
+                                        {
+                                            "Confidence": 0.916745,
+                                            "Duration": 2300000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 679400000,
+                                            "OffsetInSeconds": 67.94,
+                                            "Word": "by"
+                                        },
+                                        {
+                                            "Confidence": 0.919545,
+                                            "Duration": 1600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 681700000,
+                                            "OffsetInSeconds": 68.17,
+                                            "Word": "the"
+                                        },
+                                        {
+                                            "Confidence": 0.97871,
+                                            "Duration": 6400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 683300000,
+                                            "OffsetInSeconds": 68.33,
+                                            "Word": "policy"
+                                        },
+                                        {
+                                            "Confidence": 0.989706,
+                                            "Duration": 5400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 689700000,
+                                            "OffsetInSeconds": 68.97,
+                                            "Word": "company"
+                                        },
+                                        {
+                                            "Confidence": 0.955082,
+                                            "Duration": 5000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 695300000,
+                                            "OffsetInSeconds": 69.53,
+                                            "Word": "insurance"
+                                        },
+                                        {
+                                            "Confidence": 0.995149,
+                                            "Duration": 3700000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 700300000,
+                                            "OffsetInSeconds": 70.03,
+                                            "Word": "company"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 662400000,
+                            "OffsetInSeconds": 66.24,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "2"
+                        },
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 30600000,
+                            "DurationInSeconds": 3.06,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.8768042,
+                                    "Display": "And uh also can I apply for this online?",
+                                    "ITN": "and uh also can i apply for this online",
+                                    "Lexical": "and uh also can i apply for this online",
+                                    "MaskedITN": "And uh also can I apply for this online",
+                                    "Sentiment": {
+                                        "Negative": 0.993793,
+                                        "Neutral": 0,
+                                        "Positive": 0
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.91582,
+                                            "Duration": 4600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 711900000,
+                                            "OffsetInSeconds": 71.19,
+                                            "Word": "and"
+                                        },
+                                        {
+                                            "Confidence": 0.939071,
+                                            "Duration": 2000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 716500000,
+                                            "OffsetInSeconds": 71.65,
+                                            "Word": "uh"
+                                        },
+                                        {
+                                            "Confidence": 0.869687,
+                                            "Duration": 3800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 718500000,
+                                            "OffsetInSeconds": 71.85,
+                                            "Word": "also"
+                                        },
+                                        {
+                                            "Confidence": 0.90353,
+                                            "Duration": 2000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 722300000,
+                                            "OffsetInSeconds": 72.23,
+                                            "Word": "can"
+                                        },
+                                        {
+                                            "Confidence": 0.855478,
+                                            "Duration": 800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 724300000,
+                                            "OffsetInSeconds": 72.43,
+                                            "Word": "i"
+                                        },
+                                        {
+                                            "Confidence": 0.989501,
+                                            "Duration": 6200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 725100000,
+                                            "OffsetInSeconds": 72.51,
+                                            "Word": "apply"
+                                        },
+                                        {
+                                            "Confidence": 0.980653,
+                                            "Duration": 2000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 731300000,
+                                            "OffsetInSeconds": 73.13,
+                                            "Word": "for"
+                                        },
+                                        {
+                                            "Confidence": 0.960555,
+                                            "Duration": 2600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 733300000,
+                                            "OffsetInSeconds": 73.33,
+                                            "Word": "this"
+                                        },
+                                        {
+                                            "Confidence": 0.98524,
+                                            "Duration": 6600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 735900000,
+                                            "OffsetInSeconds": 73.59,
+                                            "Word": "online"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 711900000,
+                            "OffsetInSeconds": 71.19,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "1"
+                        },
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 35500000,
+                            "DurationInSeconds": 3.55,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.8768042,
+                                    "Display": "Yeah, you can apply through the online also man it will be possible.",
+                                    "ITN": "yeah you can apply through the online also man it will be possible",
+                                    "Lexical": "yeah you can apply through the online also man it will be possible",
+                                    "MaskedITN": "Yeah you can apply through the online also man it will be possible",
+                                    "Sentiment": {
+                                        "Negative": 0.172755,
+                                        "Neutral": 0.827201,
+                                        "Positive": 0
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.928728,
+                                            "Duration": 3300000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 743800000,
+                                            "OffsetInSeconds": 74.38,
+                                            "Word": "yeah"
+                                        },
+                                        {
+                                            "Confidence": 0.792205,
+                                            "Duration": 1200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 747100000,
+                                            "OffsetInSeconds": 74.71,
+                                            "Word": "you"
+                                        },
+                                        {
+                                            "Confidence": 0.942925,
+                                            "Duration": 2000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 748300000,
+                                            "OffsetInSeconds": 74.83,
+                                            "Word": "can"
+                                        },
+                                        {
+                                            "Confidence": 0.968493,
+                                            "Duration": 4000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 750300000,
+                                            "OffsetInSeconds": 75.03,
+                                            "Word": "apply"
+                                        },
+                                        {
+                                            "Confidence": 0.976919,
+                                            "Duration": 2800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 754300000,
+                                            "OffsetInSeconds": 75.43,
+                                            "Word": "through"
+                                        },
+                                        {
+                                            "Confidence": 0.858518,
+                                            "Duration": 1000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 757100000,
+                                            "OffsetInSeconds": 75.71,
+                                            "Word": "the"
+                                        },
+                                        {
+                                            "Confidence": 0.960477,
+                                            "Duration": 3800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 758100000,
+                                            "OffsetInSeconds": 75.81,
+                                            "Word": "online"
+                                        },
+                                        {
+                                            "Confidence": 0.949599,
+                                            "Duration": 3400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 761900000,
+                                            "OffsetInSeconds": 76.19,
+                                            "Word": "also"
+                                        },
+                                        {
+                                            "Confidence": 0.927805,
+                                            "Duration": 3200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 765300000,
+                                            "OffsetInSeconds": 76.53,
+                                            "Word": "man"
+                                        },
+                                        {
+                                            "Confidence": 0.896192,
+                                            "Duration": 1900000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 769300000,
+                                            "OffsetInSeconds": 76.93,
+                                            "Word": "it"
+                                        },
+                                        {
+                                            "Confidence": 0.984378,
+                                            "Duration": 1300000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 771200000,
+                                            "OffsetInSeconds": 77.12,
+                                            "Word": "will"
+                                        },
+                                        {
+                                            "Confidence": 0.86385,
+                                            "Duration": 900000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 772500000,
+                                            "OffsetInSeconds": 77.25,
+                                            "Word": "be"
+                                        },
+                                        {
+                                            "Confidence": 0.987845,
+                                            "Duration": 5900000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 773400000,
+                                            "OffsetInSeconds": 77.34,
+                                            "Word": "possible"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 743800000,
+                            "OffsetInSeconds": 74.38,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "2"
+                        },
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 27300000,
+                            "DurationInSeconds": 2.73,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.8436062,
+                                    "Display": "Oh, OK alright.",
+                                    "ITN": "oh OK alright",
+                                    "Lexical": "oh OK alright",
+                                    "MaskedITN": "Oh OK alright",
+                                    "Sentiment": {
+                                        "Negative": 0.116779,
+                                        "Neutral": 0.883156,
+                                        "Positive": 0
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.965123,
+                                            "Duration": 9200000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 787900000,
+                                            "OffsetInSeconds": 78.79,
+                                            "Word": "oh"
+                                        },
+                                        {
+                                            "Confidence": 0.909302,
+                                            "Duration": 8900000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 797300000,
+                                            "OffsetInSeconds": 79.73,
+                                            "Word": "OK"
+                                        },
+                                        {
+                                            "Confidence": 0.896401,
+                                            "Duration": 6100000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 809100000,
+                                            "OffsetInSeconds": 80.91,
+                                            "Word": "alright"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 787900000,
+                            "OffsetInSeconds": 78.79,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "2"
+                        },
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 14600000,
+                            "DurationInSeconds": 1.46,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.8436062,
+                                    "Display": "Alright, thank you so much.",
+                                    "ITN": "alright thank you so much",
+                                    "Lexical": "alright thank you so much",
+                                    "MaskedITN": "Alright thank you so much",
+                                    "Sentiment": {
+                                        "Negative": 0,
+                                        "Neutral": 0,
+                                        "Positive": 1
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.939132,
+                                            "Duration": 3600000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 815800000,
+                                            "OffsetInSeconds": 81.58,
+                                            "Word": "alright"
+                                        },
+                                        {
+                                            "Confidence": 0.986988,
+                                            "Duration": 3500000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 819700000,
+                                            "OffsetInSeconds": 81.97,
+                                            "Word": "thank"
+                                        },
+                                        {
+                                            "Confidence": 0.928712,
+                                            "Duration": 1000000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 823200000,
+                                            "OffsetInSeconds": 82.32,
+                                            "Word": "you"
+                                        },
+                                        {
+                                            "Confidence": 0.991256,
+                                            "Duration": 1400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 824200000,
+                                            "OffsetInSeconds": 82.42,
+                                            "Word": "so"
+                                        },
+                                        {
+                                            "Confidence": 0.995086,
+                                            "Duration": 4800000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 825600000,
+                                            "OffsetInSeconds": 82.56,
+                                            "Word": "much"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 815800000,
+                            "OffsetInSeconds": 81.58,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "1"
+                        },
+                        {
+                            "ChannelNumber": null,
+                            "Duration": 24500000,
+                            "DurationInSeconds": 2.45,
+                            "NBest": [
+                                {
+                                    "Confidence": 0.8436062,
+                                    "Display": "Thank you for calling history else have your nice statement.",
+                                    "ITN": "thank you for calling history else have your nice statement",
+                                    "Lexical": "thank you for calling history else have your nice statement",
+                                    "MaskedITN": "Thank you for calling history else have your nice statement",
+                                    "Sentiment": {
+                                        "Negative": 0,
+                                        "Neutral": 0,
+                                        "Positive": 1
+                                    },
+                                    "Words": [
+                                        {
+                                            "Confidence": 0.988605,
+                                            "Duration": 2700000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 831300000,
+                                            "OffsetInSeconds": 83.13,
+                                            "Word": "thank"
+                                        },
+                                        {
+                                            "Confidence": 0.943357,
+                                            "Duration": 1100000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 834000000,
+                                            "OffsetInSeconds": 83.4,
+                                            "Word": "you"
+                                        },
+                                        {
+                                            "Confidence": 0.963799,
+                                            "Duration": 1500000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 835100000,
+                                            "OffsetInSeconds": 83.51,
+                                            "Word": "for"
+                                        },
+                                        {
+                                            "Confidence": 0.982136,
+                                            "Duration": 3400000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 836600000,
+                                            "OffsetInSeconds": 83.66,
+                                            "Word": "calling"
+                                        },
+                                        {
+                                            "Confidence": 0.748935,
+                                            "Duration": 3100000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 840000000,
+                                            "OffsetInSeconds": 84,
+                                            "Word": "history"
+                                        },
+                                        {
+                                            "Confidence": 0.835045,
+                                            "Duration": 2500000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 843100000,
+                                            "OffsetInSeconds": 84.31,
+                                            "Word": "else"
+                                        },
+                                        {
+                                            "Confidence": 0.93759,
+                                            "Duration": 2100000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 845600000,
+                                            "OffsetInSeconds": 84.56,
+                                            "Word": "have"
+                                        },
+                                        {
+                                            "Confidence": 0.902205,
+                                            "Duration": 1100000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 847700000,
+                                            "OffsetInSeconds": 84.77,
+                                            "Word": "your"
+                                        },
+                                        {
+                                            "Confidence": 0.840588,
+                                            "Duration": 2500000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 848800000,
+                                            "OffsetInSeconds": 84.88,
+                                            "Word": "nice"
+                                        },
+                                        {
+                                            "Confidence": 0.944217,
+                                            "Duration": 4500000,
+                                            "DurationInSeconds": 0,
+                                            "Offset": 851300000,
+                                            "OffsetInSeconds": 85.13,
+                                            "Word": "statement"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "Offset": 831300000,
+                            "OffsetInSeconds": 83.13,
+                            "RecognitionStatus": "Success",
+                            "SpeakerId": "2"
+                        }
+                    ]
+                },
+                "runAfter": {},
+                "type": "Compose"
+            },
+            "Create_CSV_table": {
+                "inputs": {
+                    "format": "CSV",
+                    "from": "@variables('SegmentedResults')"
+                },
+                "runAfter": {
+                    "For_each": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "Table"
+            },
+            "Create_blob": {
+                "inputs": {
+                    "body": "@body('Create_CSV_table')",
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['azureblob']['connectionId']"
+                        }
+                    },
+                    "method": "post",
+                    "path": "/datasets/default/files",
+                    "queries": {
+                        "folderPath": "/adfcontainer",
+                        "name": "sample_rajat.csv",
+                        "queryParametersSingleEncoded": true
+                    }
+                },
+                "runAfter": {
+                    "Create_CSV_table": [
+                        "Succeeded"
+                    ]
+                },
+                "runtimeConfiguration": {
+                    "contentTransfer": {
+                        "transferMode": "Chunked"
+                    }
+                },
+                "type": "ApiConnection"
+            },
+            "For_each": {
+                "actions": {
+                    "For_each_2": {
+                        "actions": {
+                            "Append_to_array_variable": {
+                                "inputs": {
+                                    "name": "SegmentedResults",
+                                    "value": "@outputs('Compose_2')"
+                                },
+                                "runAfter": {
+                                    "Compose_2": [
+                                        "Succeeded"
+                                    ]
+                                },
+                                "type": "AppendToArrayVariable"
+                            },
+                            "Compose_2": {
+                                "inputs": {
+                                    "CallId": "@body('Parse_JSON')?['callId']",
+                                    "ChannelNumber": "@items('For_each')?['ChannelNumber']",
+                                    "Confidence": "@items('For_each_2')?['Confidence']",
+                                    "Display": "@items('For_each_2')?['Display']",
+                                    "Duration": "@items('For_each')?['DurationInSeconds']",
+                                    "Lexical": "@items('For_each_2')?['Lexical']",
+                                    "NegativeSentiment": "@items('For_each_2')?['Sentiment']?['Negative']",
+                                    "NeutralSentiment": "@items('For_each_2')?['Sentiment']?['Neutral']",
+                                    "PositiveSentiment": "@items('For_each_2')?['Sentiment']?['Positive']",
+                                    "SpeakerId": "@items('For_each')?['SpeakerId']",
+                                    "Starttime": "@items('For_each')?['OffsetInSeconds']",
+                                    "Words": "@replace(string(items('For_each_2')?['Words']),',','|')"
+                                },
+                                "runAfter": {},
+                                "type": "Compose"
+                            }
+                        },
+                        "foreach": "@items('For_each')?['NBest']",
+                        "runAfter": {},
+                        "type": "Foreach"
+                    }
+                },
+                "foreach": "@body('Parse_JSON')?['segmentResults']",
+                "runAfter": {
+                    "Initialize_variable": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "Foreach"
+            },
+            "Initialize_variable": {
+                "inputs": {
+                    "variables": [
+                        {
+                            "name": "SegmentedResults",
+                            "type": "array"
+                        }
+                    ]
+                },
+                "runAfter": {
+                    "Parse_JSON": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "InitializeVariable"
+            },
+            "Parse_JSON": {
+                "inputs": {
+                    "content": "@outputs('Compose')",
+                    "schema": {
+                        "properties": {
+                            "callId": {
+                                "type": "integer"
+                            },
+                            "segmentResults": {
+                                "items": {
+                                    "properties": {
+                                        "ChannelNumber": {},
+                                        "Duration": {
+                                            "type": "integer"
+                                        },
+                                        "DurationInSeconds": {
+                                            "type": "number"
+                                        },
+                                        "NBest": {
+                                            "items": {
+                                                "properties": {
+                                                    "Confidence": {
+                                                        "type": "number"
+                                                    },
+                                                    "Display": {
+                                                        "type": "string"
+                                                    },
+                                                    "ITN": {
+                                                        "type": "string"
+                                                    },
+                                                    "Lexical": {
+                                                        "type": "string"
+                                                    },
+                                                    "MaskedITN": {
+                                                        "type": "string"
+                                                    },
+                                                    "Sentiment": {
+                                                        "properties": {
+                                                            "Negative": {
+                                                                "type": "number"
+                                                            },
+                                                            "Neutral": {
+                                                                "type": "number"
+                                                            },
+                                                            "Positive": {
+                                                                "type": "number"
+                                                            }
+                                                        },
+                                                        "type": "object"
+                                                    },
+                                                    "Words": {
+                                                        "items": {
+                                                            "properties": {
+                                                                "Confidence": {
+                                                                    "type": "number"
+                                                                },
+                                                                "Duration": {
+                                                                    "type": "integer"
+                                                                },
+                                                                "DurationInSeconds": {
+                                                                    "type": "integer"
+                                                                },
+                                                                "Offset": {
+                                                                    "type": "integer"
+                                                                },
+                                                                "OffsetInSeconds": {
+                                                                    "type": "number"
+                                                                },
+                                                                "Word": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "Word",
+                                                                "Offset",
+                                                                "Duration",
+                                                                "OffsetInSeconds",
+                                                                "DurationInSeconds",
+                                                                "Confidence"
+                                                            ],
+                                                            "type": "object"
+                                                        },
+                                                        "type": "array"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "Confidence",
+                                                    "Lexical",
+                                                    "ITN",
+                                                    "MaskedITN",
+                                                    "Display",
+                                                    "Sentiment",
+                                                    "Words"
+                                                ],
+                                                "type": "object"
+                                            },
+                                            "type": "array"
+                                        },
+                                        "Offset": {
+                                            "type": "integer"
+                                        },
+                                        "OffsetInSeconds": {
+                                            "type": "number"
+                                        },
+                                        "RecognitionStatus": {
+                                            "type": "string"
+                                        },
+                                        "SpeakerId": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "RecognitionStatus",
+                                        "ChannelNumber",
+                                        "SpeakerId",
+                                        "Offset",
+                                        "Duration",
+                                        "OffsetInSeconds",
+                                        "DurationInSeconds",
+                                        "NBest"
+                                    ],
+                                    "type": "object"
+                                },
+                                "type": "array"
+                            }
+                        },
+                        "type": "object"
+                    }
+                },
+                "runAfter": {
+                    "Compose": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "ParseJson"
+            }
+        },
+        "contentVersion": "1.0.0.0",
+        "outputs": {},
+        "parameters": {
+            "$connections": {
+                "defaultValue": {},
+                "type": "Object"
+            }
+        },
+        "triggers": {
+            "HTTP": {
+                "inputs": {
+                    "method": "GET",
+                    "uri": "https://www.google.com"
+                },
+                "recurrence": {
+                    "frequency": "Hour",
+                    "interval": 3
+                },
+                "type": "Http"
+            }
+        }
+    },
+    "parameters": {
+        "$connections": {
+            "value": {
+                "azureblob": {
+                    "connectionId": "/subscriptions/047ae087-7d35-4c57-8fe9-7a442cc9cf16/resourceGroups/Speech_Analytics/providers/Microsoft.Web/connections/azureblob",
+                    "connectionName": "azureblob",
+                    "id": "/subscriptions/047ae087-7d35-4c57-8fe9-7a442cc9cf16/providers/Microsoft.Web/locations/centralus/managedApis/azureblob"
+                }
+            }
+        }
+    }
+}

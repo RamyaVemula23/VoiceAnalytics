@@ -1,0 +1,208 @@
+.calendar-container,
+.calendar,
+.calendar-header,
+td,
+tr {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.calendar {
+    background-color: white;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.calendar-header {
+    font-size: 10px;
+    text-align: center;
+}
+
+.calendar-header td {
+    border-spacing: 0;
+    padding-left: 5px;
+}
+
+.day,
+.empty-slot,
+.week-day {
+    text-align: center;
+    height: 20px;
+}
+
+.week-day {
+    font-size: 10px;
+}
+
+.day {
+    font-size: 10px;
+}
+
+.day {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.current-day {
+    background-color: #4285f4;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2%;
+    color: white;
+}
+.selected-day {
+    background-color:#92E2F8;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2%;
+    color: black;
+}
+
+.month-popup {
+    position: absolute;
+    padding: 5px;
+    background: white;
+    border: 2px solid skyblue;
+}
+
+.month-popup div {
+    padding: 0.3em;
+}
+
+.nav-month {
+    position: absolute;
+    top: 10px;
+    font-size: 10px;
+    right:3px;
+}
+
+/* .prev {
+}
+
+.next {
+} */
+
+.editor-year {
+    max-width: 3.6em;
+    font-size: 10px;
+}
+
+.label-month,
+.label-year {
+    font-size:10px;
+}
+
+.label-month {
+    cursor: pointer;
+}
+
+.label-box{
+    padding: 0;
+    text-align: right;
+    padding: 15px 5px;
+    font-size: 12px;
+  }
+  
+.calendar-box{
+  padding: 0;
+  text-align: right;
+  align-content: right;
+  border-right: 1px solid black;
+}
+
+.input-box{
+  padding: 15px 0px;
+  text-align: left;
+}
+
+.in {
+  width: 80%;
+  font-size: 12px;
+  background-color: #fff;
+  border: 1px solid black;
+  padding-left: 10px;
+}
+
+.top-row {
+  background-color: #92E2F8;
+  border-bottom: 1px solid black;
+}
+
+.bottom-row {
+  background-color: #92E2F8;
+  border-top: 1px solid black;
+  align-content: center;
+  text-align: center;
+  height: 63px;
+}
+
+.datePicker-body {
+  z-index:10;
+  position:absolute;
+  width:31.25vw;
+  height:40vh;
+  border:1px solid black;
+  background-color: #fff;
+}
+
+.btn-cancel {
+  padding: 2px 20px;
+  font-size: 10px;
+  margin: 15px 5px;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.btn-accept {
+  padding: 2px 20px;
+  font-size: 10px;
+  margin: 15px 5px;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+}
+
+.sidebar {
+  width: 100%;
+  padding-left: 0%;
+  font-size: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.sidebar-btn {
+  border: 1px solid #ffffff ;
+  width: 100%;
+  padding: 6.3px;
+  text-align: left;
+}
+
+.default-btn {
+  background-color: #fff;
+}
+
+.clicked-btn {
+  background-color: #92E2F8;
+}
+
+.calendar-body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.date {
+  font-family: "GT Walsheim Pro Regular";
+  font-size: 18px;
+}
+
